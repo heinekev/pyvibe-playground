@@ -13,3 +13,4 @@ with footer.add_footercategory("Category 2") as category:
 sidebar = pv.Sidebar()
 with sidebar.add_sidebarcategory(title="Navigation") as sidebar:
     sidebar.add_sidebarlink(title="Section 1", url="#main")
+    sidebar.add_sidebarlink(title="Starbucks", url="https://www.starbucks.com")
